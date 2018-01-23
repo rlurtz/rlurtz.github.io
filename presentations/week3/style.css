@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Joti+One|Kavivanar|Macondo|Quicksand|Raleway|Ranga|Sedgwick+Ave+Display');
+/* Eric Meyer CSS Reset begins*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,main{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* Eric Meyer CSS Reset ends */
+
+body{
+  background-color: #000000;
+}
+.mainDiv{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px;
+    line-height: 30px;
+}
+
+p, h2, header{
+  margin-bottom: 20px;
+}
+
+strong{
+  font-weight: bold;
+}
+
+h1{
+  font-family: "Joti One";
+  color: white;
+  font-size: 60px;
+
+  background-image: url(blackbackground.jpg);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  height: 440px;
+background-position: center;
+  text-align: center;
+  line-height: 460px;
+  opacity: 70%;
+}
+
+h2{
+  font-family: "Macondo";
+  font-size: 72px;
+  color: white;
+}
+
+ul{
+  font-family: "Quicksand";
+  list-style-type: disc;
+  color: white;
+  margin-left: 30px;
+  font-size: 24px;
+}
+
+blockquote{
+  font-family: "Macondo";
+  font-size: 24px;
+  color: yellow;
+
+}
+
+#byline{
+  font-family: "Ruthie";
+  color: #FFF200;
+}
+
+.text{
+  font-family: "Quicksand";
+  color: white;
+  font-size: 24px;
+}
+
+img{
+  border: solid;
+  border-color: #66BC46;
+  border-width: 10px;
+  max-width: 400px;
+}
