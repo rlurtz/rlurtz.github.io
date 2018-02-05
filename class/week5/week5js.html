@@ -23,6 +23,10 @@
       .height2 {
         height: 350px;
       }
+
+      .boldRed{
+        font-style:
+      }
         </style>
   </head>
   <body>
@@ -122,6 +126,10 @@
         //what we give the html function is a parameter of html code
         $(".myConsole").html("the full sentence is "+fullSentence);
       });
+
+      $(".myConsole").append("<h1 class='boldRed'>here is another sentence</h1>";
+
+      $(".myConsole").prepend("<div class='boldRed'>Text before all</div>");
 
     </script>
     <script type="text/javascript">
