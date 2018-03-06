@@ -1,0 +1,28 @@
+[
+  {
+    "class":"item active",
+    "caption":"snow",
+    "source":"https://images.unsplash.com/photo-1504549922018-4d505b2356a9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=61905353988849ef81ad12b40f424c71&auto=format&fit=crop&w=1135&q=80"
+  },
+  {
+    "class":"item",
+    "caption":"lava",
+    "source":"https://images.unsplash.com/photo-1519901416153-b3ea11f3fcc6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bc0d655036e7ce0df3b88afd4704b6a4&auto=format&fit=crop&w=1050&q=80"
+  },
+  {
+    "class":"item",
+    "caption":"grass",
+    "source":"https://images.unsplash.com/photo-1413813447360-290ffe8d33d0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cc0a8e291ba8818a609cb1bbb3c73e5a&auto=format&fit=crop&w=1052&q=80"
+  },
+  {
+    "class":"item",
+    "caption":"water",
+    "source":"https://images.unsplash.com/reserve/AXx3QORhRDKAMrbb8pX4_photo%202.JPG?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5f193770008b00867d9b8fb0006eaa79&auto=format&fit=crop&w=1050&q=80"
+  },
+  {
+    "class":"item",
+    "caption":"fire",
+    "source":"https://images.unsplash.com/photo-1499560470475-3c75b259add8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a4b622515efde74cfcb3d73ba3d2652f&auto=format&fit=crop&w=1050&q=80"
+  }
+
+]
