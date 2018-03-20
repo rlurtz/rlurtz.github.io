@@ -32,6 +32,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <input type="number" name="" value="" class="form-control">
         <h4 class="modal-title" id="myModalLabel">Modal title</h4>
       </div>
       <div class="modal-body">
@@ -58,18 +59,57 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script>
-      function getRandomColor() {
-        return Math.floor(Math.random() * 255);
-      }
+     $(document).ready(function() {
 
-      $(document).ready(function() {
-        $(".buttonOne").on("click", function() {
-          //  $(".myOutput").append("button clicked...");
-          $("body").css("background-color", "RGB(" + getRandomColor() + "," + getRandomColor() + "," + getRandomColor() + ")");
-        })
+       var myArray = getRandomArray();
+       var numberOfGuesses =0;
 
-      })
+       function getRandomColor() {
+         return Math.floor(Math.random() * 255);
+       }
 
-  </script>
+       function getRandomArray() {
+         var tempArray = [];
+         //add a random number between 1 and 50 , 5 times
+         for (var i = 0; i < 5; i++) {
+           tempArray.push(Math.floor(Math.random()*50+1));
+         }
+         return tempArray;
+       }
+
+       $(".myOutput").append("myArray: " + myArray);
+
+       $(".buttonOne").on("click", function() {//new game
+         numberOfGuesses =0;//set guesse to 0
+         $(".myOutput").html("");//clear the output
+         myArray = getRandomArray(); //get a new array
+       }) //end click
+
+       $(".inputOne").on("change", function() {
+         //cast in Number data type
+         var inputValue = Number($(this).val());
+         var myIndex = myArray.indexOf(inputValue);
+
+         if (numberOfGuesses < 5){
+           //check
+           $(".myOutput").append("game is still on <br>");
+           if (myIndex > -1){//we found out
+             $(".myOutput").append("You did it. "+inputValue+" is at index "+myIndex);
+             setInterval(function(){
+                  $("body").css("background-color", "RGB(" + getRandomColor() + "," + getRandomColor() + "," + getRandomColor() + ")");
+             },250);
+           }
+           else{
+             $(".myOutput").append("Sorry. "+inputValue+" is not in the array");
+           }
+         }
+         else{
+           $(".myOutput").append("you are out of guesses <br>");
+         }
+         numberOfGuesses++;//add 1 to the number of guesses
+         $(".myOutput").append("numberOfGuesses "+numberOfGuesses +"<br>");
+       }) //end click
+     }) //end document ready
+   </script>
   </body>
 </html>
