@@ -1,0 +1,34 @@
+{
+  "Sheet1": {
+    "1": {
+      "itemId": 1,
+      "RicLuTitle": "Kira risu",
+      "RicLuPrice": "¥ 500",
+      "proAndImgUrl": "andersonguelphjs.github.io/class/week11/img/kirarisu.png"
+    },
+    "2": {
+      "itemId": 2,
+      "RicLuTitle": "Gera chou",
+      "RicLuPrice": "¥ 500",
+      "proAndImgUrl": "andersonguelphjs.github.io/class/week11/img/geraCho.png"
+    },
+    "3": {
+      "itemId": 3,
+      "RicLuTitle": "Melody",
+      "RicLuPrice": "¥ 500",
+      "proAndImgUrl": "andersonguelphjs.github.io/class/week11/img/melody.png"
+    },
+    "4": {
+      "itemId": 4,
+      "RicLuTitle": "Mogu Tan",
+      "RicLuPrice": "¥ 500",
+      "proAndImgUrl": "andersonguelphjs.github.io/class/week11/img/moguTan.png"
+    },
+    "5": {
+      "itemId": 5,
+      "RicLuTitle": "Oshaki",
+      "RicLuPrice": "¥ 500",
+      "proAndImgUrl": "andersonguelphjs.github.io/class/week11/img/oshaki.png"
+    }
+  }
+}

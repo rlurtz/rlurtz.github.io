@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 logo">
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+<div class="selectContainer flexSpaceAround">
+  <div class="selectLabel">
+    Choose another product type :
+  </div>
+<div>
+  <select class="form-control" name="">
+
+  </select>
+</div>
+</div>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-md-2 adsLeft">
+
+        </div>
+        <div class="col-md-8">
+
+        </div>
+        <div class="col-md-2 adsRight">
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 footer">
+<hr>
+<span>© 2018 Chindogu.com</span>
+        </div>
+      </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script>
+function getAds(){
+
+        var ads = [
+          "https://andersonguelphjs.github.io/class/week11/img/ads/ad1.jpeg",
+          "https://andersonguelphjs.github.io/class/week11/img/ads/ad2.jpg",
+          "https://andersonguelphjs.github.io/class/week11/img/ads/ad3.jpeg",
+          "https://andersonguelphjs.github.io/class/week11/img/ads/ad4.jpeg",
+          "https://andersonguelphjs.github.io/class/week11/img/ads/ad5.jpg",
+          "https://andersonguelphjs.github.io/class/week11/img/ads/ad6.png",
+          "https://andersonguelphjs.github.io/class/week11/img/ads/ad7.png",
+          "https://andersonguelphjs.github.io/class/week11/img/ads/ad8.jpg",
+          "https://andersonguelphjs.github.io/class/week11/img/ads/ad9.png",
+          "https://andersonguelphjs.github.io/class/week11/img/ads/ad10.jpeg"
+        ];
+
+for(var i=0;i<3;i++){
+$(".adsLeft").append("<div class='ad'>
+<img src='"+ads[Math.floor(Math.random()*10)] + "'/></div>"); +
+<img src='"+ads[Math.floor(Math.random()*10)] + "'/></div>");
+</div>")
+
+}
+}
+
+      $(document).ready(function(){
+$("body").fadeIn();
+})
+    </script>
+  </body>
+</html>
